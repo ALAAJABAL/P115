@@ -1,0 +1,48 @@
+  h3
+  {
+    font-size: 25px !important;
+  }
+.btn-success:hover
+{
+	background-color: red;
+}
+body{
+  background-image: url("background.jpg");
+}
+
+
+select{
+  width:120px;
+  background-color: black;
+  color:white;
+  font-family: monospace;
+}
+
+canvas{
+   border-style:solid;
+   margin-top:80px;
+   animation: colors 1s infinite;
+}
+
+@keyframes colors{
+   0%{
+    box-shadow : 5px 5px 38px red;
+   }
+
+   25%{
+    box-shadow : 5px 5px 38px rgb(255, 242, 0);
+   }
+
+   50%{
+    box-shadow : 5px 5px 38px rgb(0, 255, 200);
+   }
+
+   75%{
+    box-shadow : 5px 5px 38px rgb(38, 255, 0);
+   }
+
+   100%{
+    box-shadow : 5px 5px 38px rgb(217, 0, 255);
+   }
+}
+
